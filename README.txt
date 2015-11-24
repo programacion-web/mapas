@@ -1,3 +1,3 @@
 DISCLAIMER 
 
-Permite una infraestructura de pagos descentralizada, sin grandes oligopolistas que carguen tasas por realizar operaciones (como cobrar con tarjeta en los comercios). Ya existen cientos de aplicaciones y webs que permiten la libre transmisión de Bitcoins en comercios, con una comisión del 1%.
+Este modulo de mapas mentales es un secillo modulo para drupal que te muetra una pagina con iframe hacia la instalacion de mindmaps, para la version de drupal 8 espero la integracion sea completa.
