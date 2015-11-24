@@ -1,0 +1,44 @@
+<?php
+
+/**
+ * @file
+ * This module provides a mapa mental.
+ * Raul Espinosa raul@ninja-code.de
+ */
+/*
+ * Implementation of hook_menu()
+ */
+function my_mapa_menu(){
+  // path location (<a href="/mapas-mentales" title="Mapas Mentales">Mapa Mental</a> )
+  $items['/mapas-mentales'] = array(
+    // page title
+    'title' => 'Mapa Mentales',
+    // describe the page for the menu system.  site visitors will not see this
+    'description' => 'Mapa mental hook_menu() implementation.',
+    // function that is called when visiting the new path
+    'page callback' => 'my_mapa_mental', //my_page_function
+    // permissions required to view page
+    'access arguments' => array('access content'),
+  );  
+  return $items;
+}
+ 
+/*
+ * Returns custom content to Drupal
+ */
+function my_mapa_mental(){
+  // Call theme() function, so that Drupal includes the custom-page.tpl.php template
+  return theme('my_mapa_template');//my_custom_template
+}
+   
+/*
+ * Implementation of hook_theme().
+ */
+function my_mapa_theme(){ //custom_example_theme
+  return array(
+    'my_mapa_template' => array(
+      // template file name will be custom-page.tpl.php
+      'template' => 'my-mapa', //custom-page
+    ),
+  );
+}

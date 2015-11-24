@@ -1,0 +1,2 @@
+<p>Puedes editar tu Mapa Mental en pantalla completa desde <a href="http://cursotallertransformacioneducativa.org/mapas/src/index.html" alt="!!Click aqui!!">aqui</a></p>
+<iframe src="http://cursotallertransformacioneducativa.org/mapas/src/index.html" width="100%" height="900"></iframe>
